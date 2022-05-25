@@ -1,21 +1,21 @@
 .MyCounter {
-position: center;
+  position: center;
   text-align: center;
   font-size: 3rem;
 }
 button {
- width: auto;
+  width: auto;
   font-size: 1rem;
   display: flex;
-border-radius:5%;
-border-color: aqua;
-margin: 1%;
-padding: 1%;
-background-color: gray;
-opacity: 70%;
+  border-radius: 5%;
+  border-color: aqua;
+  margin: 1%;
+  padding: 1%;
+  background-color: gray;
+  opacity: 70%;
 }
-button:hover{
+button:hover {
   font-size: 1rem;
-  background-color:gainsboro;
+  background-color: gainsboro;
   opacity: 100%;
 }
