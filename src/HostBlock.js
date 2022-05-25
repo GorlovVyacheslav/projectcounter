@@ -1,11 +1,9 @@
-import React from 'react';
-import './HostBlock.css';
+import React from "react";
+import "./HostBlock.css";
 const HostBlock = () => {
-
-
   return (
     <div>
-      <output placeholder='sdfsf'>{ }</output>
+      <output placeholder="sdfsf">{}</output>
       <button>xcvxcv</button>
     </div>
   );
