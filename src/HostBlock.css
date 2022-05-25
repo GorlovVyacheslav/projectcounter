@@ -1,0 +1,20 @@
+.HostBlock {
+  text-align: right;
+}
+
+button {
+  width: auto;
+  font-size: 1rem;
+  display: flex;
+  border-radius: 5%;
+  border-color: #000000;
+  margin: 1%;
+  padding: 1%;
+  background-color: gray;
+  opacity: 70%;
+}
+button:hover {
+  font-size: 1rem;
+  background-color: rgb(219, 34, 34);
+  opacity: 100%;
+}
