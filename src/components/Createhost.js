@@ -1,11 +1,12 @@
 import React from 'react';
-import { useState } from 'react';
+import App from '../App';
 
-const Createhost = () => {
+const Createhost = (props) => {
+    const { count } = props;
     return (
         <div>
-            <h1> Host: {useState}</h1>
-            <h1>Key: {useState}</h1>
+            <h1> Host: {count}</h1>
+            <h1>Key: {count}</h1>
             <input type="text" placeholder="host name"></input>
             <input type="text" placeholder="key(optional)"></input>
 
